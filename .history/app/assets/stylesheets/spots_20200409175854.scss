@@ -1,0 +1,15 @@
+.header{
+  border: 1px;
+  &__inner{
+    margin: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    &__right{
+      margin-left: 30px;
+    }
+    &__left{
+      margin-right: 30px;
+    }
+  }
+}

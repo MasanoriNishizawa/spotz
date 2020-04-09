@@ -1,0 +1,13 @@
+.header{
+  &__inner{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    &__right{
+      margin-left: 30px;
+    }
+    &__left{
+      margin-right: 30px;
+    }
+  }
+}
