@@ -1,0 +1,77 @@
+// ヘッダー
+
+.header{
+  border: 1px solid black;
+  &__inner{
+    margin: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left{
+      margin-left: 30px;
+    }
+    &__center{
+      font-size: 45px;
+    }
+    &__right{
+      margin-right: 30px;
+      
+    }
+  }
+}
+
+// メインページ
+
+.main{
+  &__inner{
+    margin: 30px;
+    .contents{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 1080px;
+      margin: auto;
+      .post{
+        border: cornflowerblue 1px solid;
+        display: flex;
+        height: 200px;
+        width: 500px;
+        position: relative;
+        margin: 10px;
+        &__image{
+          img{
+            height: 200px;
+            width:200px;
+          }
+        }
+        &__content{
+          margin: 10px;
+          &__title{
+            font-size: 25px;
+            width: 300px;
+            text-align: center;
+          }
+          &__user{
+            display: flex;
+            &__sumnail{
+              border: 1px solid black;
+              border-radius: 50%;
+              height: 30px;
+              width: 30px;
+            }
+            &__name{
+              margin: auto 10px ;
+            }
+          }
+          &__time{
+            position: absolute;
+            bottom: 5px;
+            right: 5px
+          }
+        }
+      }
+    }
+  }
+}

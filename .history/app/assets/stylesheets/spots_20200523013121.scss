@@ -1,0 +1,63 @@
+// ヘッダー
+
+.header{
+  border: 1px solid black;
+  &__inner{
+    margin: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left{
+      margin-left: 30px;
+    }
+    &__center{
+      font-size: 45px;
+    }
+    &__right{
+      margin-right: 30px;
+      
+    }
+  }
+}
+
+// メインページ
+
+.main{
+  &__inner{
+    margin: 30px;
+    &_top{
+    }
+    &__contents{
+      ul{
+        li{
+          height: 100%;
+          width: 100%;
+          border: 1px solid black;
+          margin-top:30px;
+          display: flex;
+          justify-content: space-around;
+          .photo{
+            height: 200px;
+            width: 200px;
+            margin: 20px;
+            border: 1px solid black;
+          }
+          .contents{
+            margin: 20px;
+            &--title{
+              font-size: 55px;
+            }
+            &--name{
+              font-size: 40px;
+            }
+            &--date{
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// フッター
