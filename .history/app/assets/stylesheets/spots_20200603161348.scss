@@ -1,0 +1,55 @@
+// ヘッダー
+
+.header{
+  border: 1px solid black;
+  &__inner{
+    margin: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left{
+      margin-left: 30px;
+    }
+    &__center{
+      font-size: 45px;
+    }
+    &__right{
+      margin-right: 30px;
+      
+    }
+  }
+}
+
+// メインページ
+
+.main{
+  &__inner{
+    .contents{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      .post{
+        height: 25%;
+        width: 25%;
+        margin: 30px;
+        &__image{
+          width: 100%;
+          img{
+            width: 100%;
+          }
+        }
+        &__title{
+
+        }
+        &__user{
+
+        }
+        &__time{
+
+        }
+      }
+    }
+  }
+}
+// フッター

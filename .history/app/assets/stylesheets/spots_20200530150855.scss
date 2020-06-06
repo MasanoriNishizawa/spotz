@@ -1,0 +1,57 @@
+// ヘッダー
+
+.header{
+  border: 1px solid black;
+  &__inner{
+    margin: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left{
+      margin-left: 30px;
+    }
+    &__center{
+      font-size: 45px;
+    }
+    &__right{
+      margin-right: 30px;
+      
+    }
+  }
+}
+
+// メインページ
+.main{
+  &__inner{
+    margin: 60px;
+    .contents{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      .post{
+        width: 25vw;
+        height: 40vh;
+        margin: 30px;
+        border: 1px black solid;
+        &__title{
+          text-align: center;
+        }
+        &__user{
+          text-align: end;
+          margin-right: 10px;
+        }
+        &__image{
+          margin: auto;
+          border: cadetblue 1px solid;
+          width: 70%;
+          height: 70%;
+        }
+        &__time{
+          float: right;
+        }
+      }
+    }
+  }
+}
+// フッター

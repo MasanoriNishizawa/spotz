@@ -1,0 +1,63 @@
+// ヘッダー
+
+.header{
+  border: 1px solid black;
+  &__inner{
+    margin: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__left{
+      margin-left: 30px;
+    }
+    &__center{
+      font-size: 45px;
+    }
+    &__right{
+      margin-right: 30px;
+      
+    }
+  }
+}
+
+// メインページ
+
+.main{
+  &__inner{
+    .contents{
+      padding: 2.5% 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: start;
+      text-align: start;
+      .post{
+        height: 300px;
+        width: 300px;
+        margin: 30px;
+        border: black 1px solid;
+        &__image{
+          width: 100%;
+          img{
+            width: 100%;
+          }
+        }
+        &__title{
+          text-align: center;
+          font-size: 20px;
+        }
+        &__info{
+          display: flex;
+          justify-content: space-around;
+          &__user{
+
+          }
+          &__time{
+
+          }
+        }
+      }
+    }
+  }
+}
+// フッター
